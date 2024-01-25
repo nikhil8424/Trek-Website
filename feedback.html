@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('kartiki.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #333;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        h3 {
+            font-size: 1.8em;
+            line-height: 1.5;
+            margin: 0;
+            color: #022c0b; /* Green color for catchy text */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        pre {
+            /* your existing pre styles */
+        }
+
+        .text-under-box {
+            margin-top: 20px;
+            text-align: left;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex; /* Make the list a flex container */
+            justify-content: space-around; /* Distribute items with space around them */
+        }
+
+        ul li {
+            margin-right: 20px; /* Add some spacing between feedback items */
+        }
+
+        ul li::before {
+            content: '\2022';
+            color: #1c6d2d;
+            font-size: 1.5em;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        strong {
+            font-weight: bold;
+            color: #1c6d2d;
+        }
+
+        /* Added styles for the feedback form */
+        form {
+            margin-top: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        label {
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #1c6d2d;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #155124;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Welcome to our platform,</h1>
+        <h3>
+            where we inspire mindful exploration in the midst of busy lives.
+        </h3>
+        <!-- Added the feedback form -->
+        <form action="#" method="post">
+            <label for="feedback">Provide your feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Submit Feedback">
+        </form>
+        <!-- Sample feedbacks -->
+        <div class="text-under-box">
+            <h3>Join us on a journey to balanced, informed, and fulfilling exploration.</h3>
+            <ul>
+                <li>
+                    <strong>anuja:</strong> "Absolutely love the platform! It has made my travel experiences so much
+                    more enjoyable and stress-free."
+                </li>
+                <li>
+                    <strong>aditya:</strong> "The travel assistance provided is top-notch. I feel more confident
+                    exploring new destinations with your guidance."
+                </li>
+                <li>
+                    <strong>devang:</strong> "Kudos to the team for promoting responsible travel. It's refreshing to
+                    see a platform that cares about the environment and cultural preservation."
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

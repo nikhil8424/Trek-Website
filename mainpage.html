@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .image-container {
+    position: relative;
+    text-align: center;
+    color: white; /* Text color */
+    font-size: 24px; /* Font size of the text */
+    font-family: Arial, sans-serif; /* Font family of the text */
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .text-item {
+    margin: 0 20px; /* Adjust the margin for spacing between text items */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+  }
+
+  .account {
+    position: absolute;
+    top: 10px;
+    right: 20px; /* Adjust the right position to avoid overlapping */
+  }
+
+  .about-us {
+    position: absolute;
+    bottom: 280px; /* Adjusted the position higher from the bottom */
+    right: 150px;
+    color: #FFD700; /* Golden yellow color */
+  }
+
+  .team,
+  .college,
+  .more-blog {
+    position: absolute;
+    font-size: 20px; /* Smaller font size */
+    right: 150px;
+  }
+
+  .team {
+    bottom: 250px;
+  }
+
+  .college {
+    bottom: 220px;
+    color: white; /* Text color */
+  }
+
+  .college a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+  }
+
+  .more-trek,
+  .our-goal,
+  .feedback,
+  .contact-us {
+    position: absolute;
+    font-size: 20px; /* Smaller font size */
+    right: 150px;
+    color: white; /* Text color */
+  }
+
+  .more-trek {
+    bottom: 150px;
+    color: #FFD700; /* Golden yellow color */
+  }
+
+  .our-goal {
+    bottom: 120px;
+  }
+
+  .feedback {
+    bottom: 90px;
+  }
+
+  .contact-us {
+    bottom: 60px;
+  }
+</style>
+</head>
+<body>
+
+<div class="image-container">
+  <img src="hello.png" alt="Hello Image" style="width:100%; margin: 0; padding: 0;">
+  <div class="text-overlay">
+    <a href="equipment.html" class="text-item">Equipment</a>
+    <a href="about us.html" class="text-item">About Us</a>
+    <a href="more of trek-la-vista.html" class="text-item">Blog</a>
+    <span class="account">Account</span>
+  </div>
+  <div class="about-us">
+    <a href="about us.html" class="text-item">About Us</a>
+  </div>
+  <div class="team">
+    <a href="team.html" class="text-item">The Team</a>
+  </div>
+  <div class="college">
+    <a href="https://www.ruiacollege.edu/" class="text-item">College</a>
+  </div>
+  <div class="more-blog">
+    More on Blog
+  </div>
+  <div class="more-trek">
+    <a href="more of trek-la-vista.html" class="text-item">More on Trek-la-vista</a>
+  </div>
+  <div class="our-goal">
+    <a href="goals.html" class="text-item">Our Goals</a>
+  </div>
+  <div class="feedback">
+    <a href="feedback.html" class="text-item">Feedback</a>
+  </div>
+  <div class="contact-us">
+    <a href="contact us.html" class="text-item">Contact Us</a>
+  </div>
+</div>
+
+</body>
+</html>
